@@ -36,7 +36,7 @@
         <div class="container flex justify-between px-6 py-6 mx-auto lg:px-0">
           <!-- Left header Section -->
           <div class="flex items-center space-x-4">
-            <a href="#" class="text-2xl font-bold text-teal-800"
+            <a href="#" class="mr-5 text-2xl font-bold text-teal-800"
               >Beginner Tailwind</a
             >
             <a href="#" class="hidden lg:inline-block hover:text-gray-900"
@@ -283,7 +283,8 @@
       <div class="container px-6 mx-auto lg:px-0">
         <!-- Header -->
         <div class="relative">
-          <h2 class="mb-32 text-6xl font-bold text-center text-purple-900">
+          <h2
+            class="mb-24 text-4xl font-bold text-center text-purple-900 lg:text-6xl">
             What You'll Learn in This Course
           </h2>
           <div
@@ -293,47 +294,77 @@
         </div>
 
         <!-- Grid Area -->
-        <div class="grid grid-cols-6 gap-10">
+        <div class="grid-cols-6 gap-10 space-y-8 lg:grid lg:space-y-0">
           <div class="col-span-2 border border-gray-700 rounded shadow-lg">
-            <h3 class="p-4 text-lg font-bold border-b border-gray-700">
-              How To Use Tailwind Classes
-            </h3>
+            <div
+              class="flex items-center justify-between p-4 border-b border-gray-700">
+              <h3 class="text-lg font-bold">How To Use Tailwind Classes</h3>
+              <div class="flex space-x-2">
+                <div class="w-3 h-3 bg-red-500 rounded-full"></div>
+                <div class="w-3 h-3 bg-yellow-500 rounded-full"></div>
+                <div class="w-3 h-3 bg-green-500 rounded-full"></div>
+              </div>
+            </div>
             <p class="p-4">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam
               fugit exercitationem alias sint nam voluptas?
             </p>
           </div>
           <div class="col-span-2 border border-gray-700 rounded shadow-lg">
-            <h3 class="p-4 text-lg font-bold border-b border-gray-700">
-              How To Use Tailwind Classes
-            </h3>
+            <div
+              class="flex items-center justify-between p-4 border-b border-gray-700">
+              <h3 class="text-lg font-bold">How To Use Tailwind Classes</h3>
+              <div class="flex space-x-2">
+                <div class="w-3 h-3 bg-red-500 rounded-full"></div>
+                <div class="w-3 h-3 bg-yellow-500 rounded-full"></div>
+                <div class="w-3 h-3 bg-green-500 rounded-full"></div>
+              </div>
+            </div>
             <p class="p-4">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam
               fugit exercitationem alias sint nam voluptas?
             </p>
           </div>
           <div class="col-span-2 border border-gray-700 rounded shadow-lg">
-            <h3 class="p-4 text-lg font-bold border-b border-gray-700">
-              How To Use Tailwind Classes
-            </h3>
+            <div
+              class="flex items-center justify-between p-4 border-b border-gray-700">
+              <h3 class="text-lg font-bold">How To Use Tailwind Classes</h3>
+              <div class="flex space-x-2">
+                <div class="w-3 h-3 bg-red-500 rounded-full"></div>
+                <div class="w-3 h-3 bg-yellow-500 rounded-full"></div>
+                <div class="w-3 h-3 bg-green-500 rounded-full"></div>
+              </div>
+            </div>
             <p class="p-4">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam
               fugit exercitationem alias sint nam voluptas?
             </p>
           </div>
           <div class="col-span-3 border border-gray-700 rounded shadow-lg">
-            <h3 class="p-4 text-lg font-bold border-b border-gray-700">
-              How To Use Tailwind Classes
-            </h3>
+            <div
+              class="flex items-center justify-between p-4 border-b border-gray-700">
+              <h3 class="text-lg font-bold">How To Use Tailwind Classes</h3>
+              <div class="flex space-x-2">
+                <div class="w-3 h-3 bg-red-500 rounded-full"></div>
+                <div class="w-3 h-3 bg-yellow-500 rounded-full"></div>
+                <div class="w-3 h-3 bg-green-500 rounded-full"></div>
+              </div>
+            </div>
             <p class="p-4">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam
               fugit exercitationem alias sint nam voluptas?
             </p>
           </div>
           <div class="col-span-3 border border-gray-700 rounded shadow-lg">
-            <h3 class="p-4 text-lg font-bold border-b border-gray-700">
-              How To Use Tailwind Classes
-            </h3>
+            <div
+              class="flex items-center justify-between p-4 border-b border-gray-700">
+              <h3 class="text-lg font-bold">How To Use Tailwind Classes</h3>
+              <div class="flex space-x-2">
+                <div class="w-3 h-3 bg-red-500 rounded-full"></div>
+                <div class="w-3 h-3 bg-yellow-500 rounded-full"></div>
+                <div class="w-3 h-3 bg-green-500 rounded-full"></div>
+              </div>
+            </div>
             <p class="p-4">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam
               fugit exercitationem alias sint nam voluptas?
@@ -343,8 +374,85 @@
       </div>
     </div>
 
+    <!-- ==================================================== -->
     <!-- What you'll Build ========================================-->
+    <!-- ==================================================== -->
+    <div class="py-24 bg-gray-300">
+      <div class="container px-6 mx-auto lg:px-0">
+        <div class="mb-8 text-center">
+          <h2 class="mb-2 text-5xl font-bold text-gray-800">
+            What We'll Build In This Course
+          </h2>
+          <p class="text-lg text-gray-700">
+            These components are things you'll have to create in every project.
+          </p>
+        </div>
+        <div
+          class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          <div class="flex bg-white rounded shadow">
+            <div
+              class="flex items-center justify-center w-1/5 text-3xl bg-teal-300 rounded-l">
+              😍
+            </div>
+            <div class="p-4">Button</div>
+          </div>
+          <div class="flex bg-white rounded shadow">
+            <div
+              class="flex items-center justify-center w-1/5 text-3xl bg-teal-300 rounded-l">
+              😍
+            </div>
+            <div class="p-4">Cards</div>
+          </div>
+          <div class="flex bg-white rounded shadow">
+            <div
+              class="flex items-center justify-center w-1/5 text-3xl bg-teal-300 rounded-l">
+              😍
+            </div>
+            <div class="p-4">Forms</div>
+          </div>
+          <div class="flex bg-white rounded shadow">
+            <div
+              class="flex items-center justify-center w-1/5 text-3xl bg-teal-300 rounded-l">
+              😍
+            </div>
+            <div class="p-4">Header</div>
+          </div>
+          <div class="flex bg-white rounded shadow">
+            <div
+              class="flex items-center justify-center w-1/5 text-3xl bg-teal-300 rounded-l">
+              😍
+            </div>
+            <div class="p-4">Hero</div>
+          </div>
+          <div class="flex bg-white rounded shadow">
+            <div
+              class="flex items-center justify-center w-1/5 text-3xl bg-teal-300 rounded-l">
+              😍
+            </div>
+            <div class="p-4">Grids</div>
+          </div>
+          <div class="flex bg-white rounded shadow">
+            <div
+              class="flex items-center justify-center w-1/5 text-3xl bg-teal-300 rounded-l">
+              😍
+            </div>
+            <div class="p-4">NewsLetter</div>
+          </div>
+          <div class="flex bg-white rounded shadow">
+            <div
+              class="flex items-center justify-center w-1/5 text-3xl bg-teal-300 rounded-l">
+              😍
+            </div>
+            <div class="p-4">responsive</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================================================== -->
     <!-- Pricing ========================================-->
+    <!-- ==================================================== -->
+
     <!-- FAQ ========================================-->
     <!-- fOOTER / NewsLetter ========================================-->
   </body>
