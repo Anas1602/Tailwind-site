@@ -1,7 +1,10 @@
 module.exports = {
   content: ["./*.html"],
   theme: {
-    extend: {},
+    //Overwrite Tailwind Classes
+    extend: {
+      //Add on tailwind Classes
+    },
   },
   plugins: [],
 };
